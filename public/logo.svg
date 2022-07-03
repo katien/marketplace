@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 84 96">
+    <title>Logo</title>
+    <g id="Logo" transform="translate(-8.000000, -2.000000)">
+        <g transform="translate(11.000000, 5.000000)">
+            <path transform="translate(-1.5, 0)"
+                  d="M39.7765 50.554L36.7355 53.8906V62H29.323V31.252H36.7355V44.8098L39.3119 40.903L45.943 31.252H55.1083L44.7181 44.8521L55.1083 62H46.3231L39.7765 50.554Z"
+                  fill="#64FFDA"></path>
+            <polygon id="Shape" stroke="#64FFDA" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"
+                     points="39 0 0 22 0 67 39 90 78 68 78 23"></polygon>
+        </g>
+    </g>
+</svg>
