@@ -13,7 +13,7 @@ function ListingItem(props: { listing: ListingData }) {
       <div className="h-80 w-full min-h-80 bg-gray-200 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75 lg:aspect-none">
         <img
           src={`https://4dul5f6u.cdn.imgeng.in/cdn_images/imageto.cfm?ix=1&idlist=${listing.mlsNumber}&imgeng=/w_auto,1080/f_webp/`}
-          alt="picture of house"
+          onError={(event: any) => (event.target.style.display = 'none')}
           className="w-full h-full object-center object-cover lg:w-full lg:h-full"
         />
       </div>

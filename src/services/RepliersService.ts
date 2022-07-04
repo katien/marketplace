@@ -4,6 +4,8 @@ import axios, { AxiosResponse } from 'axios';
 const baseUrl = 'https://sandbox.repliers.io';
 const apiKey = 'QeBzmChYdgHYIRNC4XN9Bb0StoCUWm';
 
+export const maxPageSize = 15;
+
 const headers = {
   'Content-Type': 'application/json',
   'REPLIERS-API-KEY': apiKey,
@@ -35,6 +37,7 @@ export async function getListing(
 }
 
 export interface GetListingsParams {
+  pageNum?: number;
   class?: string;
   type?: string;
 }
