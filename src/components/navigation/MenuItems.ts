@@ -37,7 +37,7 @@ export const resources = [
     name: 'Help Center',
     description:
       'Get all of your questions answered in our forums or contact support.',
-    href: 'https://ownify.com/faq',
+    href: '#',
     icon: SupportIcon,
   },
   {

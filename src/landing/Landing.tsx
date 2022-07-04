@@ -1,9 +1,8 @@
 export default function Landing() {
   return (
-    <div className="relative bg-gray-50">
+    <div className="relative bg-gray-100 mt-8">
       <main>
         <div>
-          {/* Hero card */}
           <div className="relative">
             <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100" />
             <div className="max-w-7xl mx-auto sm:px-6 lg:px-8">
@@ -26,8 +25,8 @@ export default function Landing() {
                     </span>
                   </h1>
                   <p className="mt-6 max-w-lg mx-auto text-center text-xl text-indigo-200 sm:max-w-3xl">
-                    Ownify's fractional real estate investment platform gives
-                    you the power to purchase shares in individual residential
+                    Our fractional real estate investment platform gives you the
+                    power to purchase shares in individual residential
                     properties for only $100.
                   </p>
                   <div className="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
@@ -50,55 +49,57 @@ export default function Landing() {
               </div>
             </div>
           </div>
-
-          {/* Logo cloud */}
-          <div className="bg-gray-100">
-            <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
-              <p className="text-center text-sm font-semibold uppercase text-gray-500 tracking-wide">
-                Trusted by over 5 very average small businesses
+        </div>
+        <div className="bg-gray-100 pt-12 sm:pt-16">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="max-w-4xl mx-auto text-center">
+              <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
+                Trusted by investors all over the globe
+              </h2>
+              <p className="mt-3 text-xl text-gray-500 sm:mt-4">
+                With our security tokens, US residential real estate becomes
+                accessible globally. Leverage the flexibility and
+                interoperability of the blockchain while enjoying full
+                protections from the SEC.
               </p>
-              <div className="mt-6 grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
-                <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-                  <img
-                    className="h-12"
-                    src="https://tailwindui.com/img/logos/tuple-logo-gray-400.svg"
-                    alt="Tuple"
-                  />
-                </div>
-                <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-                  <img
-                    className="h-12"
-                    src="https://tailwindui.com/img/logos/mirage-logo-gray-400.svg"
-                    alt="Mirage"
-                  />
-                </div>
-                <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-                  <img
-                    className="h-12"
-                    src="https://tailwindui.com/img/logos/statickit-logo-gray-400.svg"
-                    alt="StaticKit"
-                  />
-                </div>
-                <div className="col-span-1 flex justify-center md:col-span-2 md:col-start-2 lg:col-span-1">
-                  <img
-                    className="h-12"
-                    src="https://tailwindui.com/img/logos/transistor-logo-gray-400.svg"
-                    alt="Transistor"
-                  />
-                </div>
-                <div className="col-span-2 flex justify-center md:col-span-2 md:col-start-4 lg:col-span-1">
-                  <img
-                    className="h-12"
-                    src="https://tailwindui.com/img/logos/workcation-logo-gray-400.svg"
-                    alt="Workcation"
-                  />
+            </div>
+          </div>
+          <div className="mt-10 pb-12 bg-white sm:pb-16">
+            <div className="relative">
+              <div className="absolute inset-0 h-1/2 bg-gray-100" />
+              <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div className="max-w-4xl mx-auto">
+                  <dl className="rounded-lg bg-white shadow-lg sm:grid sm:grid-cols-3">
+                    <div className="flex flex-col border-b border-gray-100 p-6 text-center sm:border-0 sm:border-r">
+                      <dt className="order-2 mt-2 text-lg leading-6 font-medium text-gray-500">
+                        Regulated
+                      </dt>
+                      <dd className="order-1 text-5xl font-extrabold text-indigo-600">
+                        100%
+                      </dd>
+                    </div>
+                    <div className="flex flex-col border-t border-b border-gray-100 p-6 text-center sm:border-0 sm:border-l sm:border-r">
+                      <dt className="order-2 mt-2 text-lg leading-6 font-medium text-gray-500">
+                        Trading
+                      </dt>
+                      <dd className="order-1 text-5xl font-extrabold text-indigo-600">
+                        24/7
+                      </dd>
+                    </div>
+                    <div className="flex flex-col border-t border-gray-100 p-6 text-center sm:border-0 sm:border-l">
+                      <dt className="order-2 mt-2 text-lg leading-6 font-medium text-gray-500">
+                        Properties
+                      </dt>
+                      <dd className="order-1 text-5xl font-extrabold text-indigo-600">
+                        20k+
+                      </dd>
+                    </div>
+                  </dl>
                 </div>
               </div>
             </div>
           </div>
         </div>
-
-        {/* More main page content here... */}
       </main>
     </div>
   );
