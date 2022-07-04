@@ -1,23 +1,3 @@
-/* This example requires Tailwind CSS v2.0+ */
-import { Fragment } from 'react';
-import { Popover, Transition } from '@headlessui/react';
-import {
-  BookmarkAltIcon,
-  CalendarIcon,
-  ChartBarIcon,
-  CursorClickIcon,
-  MenuIcon,
-  PhoneIcon,
-  PlayIcon,
-  RefreshIcon,
-  ShieldCheckIcon,
-  SupportIcon,
-  ViewGridIcon,
-  XIcon,
-} from '@heroicons/react/outline';
-import { ChevronDownIcon } from '@heroicons/react/solid';
-import { classNames } from '../util/classNames';
-
 export default function Landing() {
   return (
     <div className="relative bg-gray-50">

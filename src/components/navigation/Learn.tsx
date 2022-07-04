@@ -2,7 +2,7 @@ import { Fragment } from 'react';
 import { Popover, Transition } from '@headlessui/react';
 import { ChevronDownIcon } from '@heroicons/react/solid';
 import { classNames } from '../../util/classNames';
-import { relevantPosts, resources } from './MenuItems';
+import { blogPosts, resources } from './MenuItems';
 
 function Learn() {
   return (
@@ -62,10 +62,10 @@ function Learn() {
                 <div className="px-5 py-5 bg-gray-50 sm:px-8 sm:py-8">
                   <div>
                     <h3 className="text-sm tracking-wide font-medium text-gray-500 uppercase">
-                      Relevant Posts
+                      Blog Posts
                     </h3>
                     <ul role="list" className="mt-4 space-y-4">
-                      {relevantPosts.map((post) => (
+                      {blogPosts.map((post) => (
                         <li key={post.id} className="text-base truncate">
                           <a
                             href={post.href}

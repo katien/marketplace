@@ -55,7 +55,7 @@ export const resources = [
   },
 ];
 
-export const relevantPosts = [
+export const blogPosts = [
   {
     id: 1,
     name: 'The Security Token Thesis',
