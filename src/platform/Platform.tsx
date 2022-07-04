@@ -32,8 +32,9 @@ export default function Platform() {
               Looking for the code? It's open source{' '}
               <a
                 target="_blank"
-                href="https://github.com/katien"
+                href="https://github.com/katien/marketplace"
                 className="font-medium text-indigo-600 hover:text-indigo-500"
+                rel="noreferrer"
               >
                 here
               </a>{' '}

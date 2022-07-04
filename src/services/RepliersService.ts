@@ -4,7 +4,7 @@ import axios, { AxiosResponse } from 'axios';
 const baseUrl = 'https://sandbox.repliers.io';
 const apiKey = 'QeBzmChYdgHYIRNC4XN9Bb0StoCUWm';
 
-export const maxPageSize = 15;
+export const pageSize = 12;
 
 const headers = {
   'Content-Type': 'application/json',
@@ -19,6 +19,7 @@ export async function getListings(
     url: `${baseUrl}/listings`,
     params: {
       ...params,
+      resultsPerPage: pageSize,
       class: 'residential',
       type: ['sale'],
     },
@@ -37,6 +38,7 @@ export async function getListing(
 }
 
 export interface GetListingsParams {
+  resultsPerPage?: number;
   pageNum?: number;
   class?: string;
   type?: string;

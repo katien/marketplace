@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import {
   getListings,
   ListingData,
-  maxPageSize,
+  pageSize,
 } from '../services/RepliersService';
 import { Loading } from '../components/Loading';
 import Pagination from '../components/Pagination';
@@ -42,7 +42,7 @@ function Marketplace() {
       </div>
       <Pagination
         currentPage={currentPage}
-        size={maxPageSize}
+        size={pageSize}
         totalPages={totalPages}
         onPage={onPage}
       />
