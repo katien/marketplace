@@ -62,6 +62,7 @@ export default function Team() {
                     <a
                       href={feature.link}
                       target="_blank"
+                      rel="noreferrer"
                       className="font-medium text-indigo-600 hover:text-indigo-500"
                     >
                       View code <span aria-hidden="true">→</span>
