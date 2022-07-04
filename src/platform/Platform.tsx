@@ -32,6 +32,7 @@ export default function Platform() {
               Looking for the code? It's open source{' '}
               <a
                 target="_blank"
+                rel="noreferrer"
                 href="https://github.com/katien"
                 className="font-medium text-indigo-600 hover:text-indigo-500"
               >

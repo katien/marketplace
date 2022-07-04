@@ -64,6 +64,7 @@ function Services() {
                       <a
                         href={item.href}
                         target="_blank"
+                        rel="noreferrer"
                         className="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-100"
                       >
                         <item.icon

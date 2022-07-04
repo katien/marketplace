@@ -42,6 +42,7 @@ function Learn() {
                       key={item.name}
                       href={item.href}
                       target="_blank"
+                      rel="noreferrer"
                       className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                     >
                       <item.icon
@@ -70,6 +71,7 @@ function Learn() {
                           <a
                             href={post.href}
                             target="_blank"
+                            rel="noreferrer"
                             className="font-medium text-gray-900 hover:text-gray-700"
                           >
                             {post.name}
@@ -82,6 +84,7 @@ function Learn() {
                     <a
                       href="https://medium.com/@sbmckeon"
                       target="_blank"
+                      rel="noreferrer"
                       className="font-medium text-indigo-600 hover:text-indigo-500"
                     >
                       View all posts <span aria-hidden="true">&rarr;</span>

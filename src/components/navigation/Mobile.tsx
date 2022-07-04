@@ -71,6 +71,7 @@ function Navigation() {
                   key={item.name}
                   href={item.href}
                   target="_blank"
+                  rel="noreferrer"
                   className="text-base font-medium text-gray-900 hover:text-gray-700"
                 >
                   {item.name}
