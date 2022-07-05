@@ -3,6 +3,7 @@ import { MenuIcon } from '@heroicons/react/outline';
 import Services from './Services';
 import Learn from './Learn';
 import Mobile from './Mobile';
+import { ConnectWallet } from '../connectwallet/ConnectWallet';
 
 function Navigation() {
   return (
@@ -39,12 +40,7 @@ function Navigation() {
             <Learn />
           </Popover.Group>
           <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
-            <a
-              href="#"
-              className="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"
-            >
-              Connect Wallet
-            </a>
+            <ConnectWallet classes="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700" />
           </div>
         </div>
       </div>

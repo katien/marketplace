@@ -1,6 +1,6 @@
 export default function Landing() {
   return (
-    <div className="relative bg-gray-100 mt-8">
+    <div className="relative bg-gray-100 pt-8 -mt-1">
       <main>
         <div>
           <div className="relative">

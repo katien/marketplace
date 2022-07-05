@@ -2,6 +2,7 @@ import { Fragment } from 'react';
 import { Popover, Transition } from '@headlessui/react';
 import { XIcon } from '@heroicons/react/outline';
 import { services, resources, callsToAction } from './MenuItems';
+import { ConnectWallet } from '../connectwallet/ConnectWallet';
 
 function Navigation() {
   return (
@@ -79,12 +80,7 @@ function Navigation() {
               ))}
             </div>
             <div>
-              <a
-                href="#"
-                className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"
-              >
-                Connect Wallet
-              </a>
+              <ConnectWallet classes="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700" />
             </div>
           </div>
         </div>

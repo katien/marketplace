@@ -36,7 +36,7 @@ function Marketplace() {
     <ListingItem key={listing.mlsNumber} listing={listing} />
   ));
   return (
-    <div className="container mx-auto mt-10 px-4">
+    <div className="container mx-auto pt-8 px-4 max-w-7xl sm:px-6">
       <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4">
         {items}
       </div>
