@@ -1,21 +1,12 @@
 import { ethers } from 'ethers';
 import Web3Modal from 'web3modal';
 import { useEffect, useState } from 'react';
-import Portis from '@portis/web3';
 import { ButtonSpinner } from '../ButtonSpinner';
+import { Web3Provider } from '@ethersproject/providers/src.ts/web3-provider';
 
-const providerOptions = {
-  portis: {
-    package: Portis,
-    options: {
-      id: '09feb1e9-1c20-4b6a-b076-26fd7991155f',
-    },
-  },
-};
 const web3Modal = new Web3Modal({
   network: 'mainnet',
   cacheProvider: true,
-  providerOptions,
 });
 
 export function ConnectWallet(props: { classes: string }) {
@@ -31,9 +22,9 @@ export function ConnectWallet(props: { classes: string }) {
     setAccount('');
   };
   const connectWallet = async () => {
-    const provider = await web3Modal.connect();
-    const library = new ethers.providers.Web3Provider(provider);
-    const accounts = await library.listAccounts();
+    const connection = await web3Modal.connect();
+    const provider = new ethers.providers.Web3Provider(connection);
+    const accounts = await provider.listAccounts();
     if (accounts) setAccount(accounts[0]);
   };
 
