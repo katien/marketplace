@@ -2,10 +2,20 @@ import { ethers } from 'ethers';
 import Web3Modal from 'web3modal';
 import { useEffect, useState } from 'react';
 import { ButtonSpinner } from '../ButtonSpinner';
+import Portis from '@portis/web3';
 
+const providerOptions = {
+  portis: {
+    package: Portis,
+    options: {
+      id: '09feb1e9-1c20-4b6a-b076-26fd7991155f',
+    },
+  },
+};
 const web3Modal = new Web3Modal({
   network: 'mainnet',
   cacheProvider: true,
+  providerOptions,
 });
 
 export function ConnectWallet(props: { classes: string }) {
