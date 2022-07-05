@@ -1,11 +1,9 @@
 import {
   BookmarkAltIcon,
-  CalculatorIcon,
   HomeIcon,
   PhoneIcon,
   PlayIcon,
   ShieldCheckIcon,
-  SupportIcon,
 } from '@heroicons/react/outline';
 
 export const services = [
@@ -14,12 +12,6 @@ export const services = [
     description: "View properties on the marketplace to know what's available",
     href: '/marketplace',
     icon: HomeIcon,
-  },
-  {
-    name: 'Cost Calculator',
-    description: 'Learn what you can afford now.',
-    href: '/calculator',
-    icon: CalculatorIcon,
   },
 ];
 
@@ -33,13 +25,6 @@ export const callsToAction = [
 ];
 
 export const resources = [
-  {
-    name: 'Help Center',
-    description:
-      'Get all of your questions answered in our forums or contact support.',
-    href: '#',
-    icon: SupportIcon,
-  },
   {
     name: 'Guides',
     description:
