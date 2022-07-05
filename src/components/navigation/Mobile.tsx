@@ -67,7 +67,7 @@ function Navigation() {
               >
                 Team
               </a>
-              {resources.concat(callsToAction as any).map((item) => (
+              {callsToAction.map((item) => (
                 <a
                   key={item.name}
                   href={item.href}
