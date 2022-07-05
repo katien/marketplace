@@ -27,7 +27,7 @@ export default function Landing() {
                   <p className="mt-6 max-w-lg mx-auto text-center text-xl text-indigo-200 sm:max-w-3xl">
                     Our fractional real estate investment platform gives you the
                     power to purchase shares in individual residential
-                    properties for only $100.
+                    properties starting at only $100.
                   </p>
                   <div className="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
                     <div className="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5">
@@ -60,7 +60,7 @@ export default function Landing() {
                 With our security tokens, US residential real estate becomes
                 accessible globally. Leverage the flexibility and
                 interoperability of the blockchain while enjoying full
-                protections from the SEC.
+                protection from the SEC.
               </p>
             </div>
           </div>

@@ -2,7 +2,6 @@ import { ethers } from 'ethers';
 import Web3Modal from 'web3modal';
 import { useEffect, useState } from 'react';
 import { ButtonSpinner } from '../ButtonSpinner';
-import { Web3Provider } from '@ethersproject/providers/src.ts/web3-provider';
 
 const web3Modal = new Web3Modal({
   network: 'mainnet',

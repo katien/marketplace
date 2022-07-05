@@ -9,7 +9,8 @@ import {
 export const products = [
   {
     name: 'Marketplace',
-    description: "View properties on the marketplace to know what's available",
+    description:
+      'View properties on the marketplace to find your next great investment.',
     href: '/marketplace',
     icon: HomeIcon,
   },

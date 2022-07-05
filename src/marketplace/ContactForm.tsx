@@ -8,7 +8,7 @@ export default function ContactForm(props: { listing: ListingData }) {
           <h1 className="text-xl font-bold text-gray-900">
             Request more information
           </h1>
-          <p>We'll get back to you within 24 hours.</p>
+          <p>A member of our team will get back to you within 24 hours.</p>
         </div>
         <div className="px-4 py-5 bg-white sm:p-6">
           <div className="grid grid-cols-6 gap-6">
