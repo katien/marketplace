@@ -26,7 +26,7 @@ export default function Team() {
     <div className="bg-white">
       <section aria-labelledby="features-heading" className="relative">
         <div className="max-w-2xl mx-auto pt-16 pb-24 px-4 sm:pb-32 sm:px-6 lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-3 lg:gap-x-8">
-          <div className="aspect-w-3 mb-4 aspect-h-2 overflow-hidden">
+          <div className="hidden lg:block aspect-w-3 mb-4 aspect-h-2 overflow-hidden">
             <img
               src="https://katien.io/static/ed70b16763239281b0e0232d6a7cae1a/03d34/me.webp"
               alt="katie"

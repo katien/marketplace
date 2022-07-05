@@ -36,6 +36,7 @@ export function ConnectWallet(props: { classes: string }) {
     const accounts = await library.listAccounts();
     if (accounts) setAccount(accounts[0]);
   };
+
   if (web3Modal.cachedProvider && !account)
     return <ButtonSpinner text="Loading..." />;
 
