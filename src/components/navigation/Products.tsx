@@ -2,9 +2,9 @@ import { Fragment } from 'react';
 import { Popover, Transition } from '@headlessui/react';
 import { ChevronDownIcon } from '@heroicons/react/solid';
 import { classNames } from '../../util/classNames';
-import { callsToAction, services } from './MenuItems';
+import { callsToAction, products } from './MenuItems';
 
-function Services() {
+function Products() {
   return (
     <Popover className="relative">
       {({ open }) => (
@@ -15,7 +15,7 @@ function Services() {
               'group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500'
             )}
           >
-            <span>Services</span>
+            <span>Products</span>
             <ChevronDownIcon
               className={classNames(
                 open ? 'text-gray-600' : 'text-gray-400',
@@ -37,7 +37,7 @@ function Services() {
             <Popover.Panel className="absolute z-10 -ml-4 mt-3 transform px-2 w-screen max-w-md sm:px-0 lg:ml-0 lg:left-1/2 lg:-translate-x-1/2">
               <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
                 <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
-                  {services.map((item) => (
+                  {products.map((item) => (
                     <a
                       key={item.name}
                       href={item.href}
@@ -85,4 +85,4 @@ function Services() {
   );
 }
 
-export default Services;
+export default Products;

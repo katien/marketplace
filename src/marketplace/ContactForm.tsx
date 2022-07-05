@@ -2,11 +2,7 @@ import { ListingData } from '../services/RepliersService';
 
 export default function ContactForm(props: { listing: ListingData }) {
   return (
-    <form
-      className="mt-8 border-t border-gray-200 pt-8"
-      action="#"
-      method="POST"
-    >
+    <form className="mt-8 border-t border-gray-200 pt-8">
       <div className="shadow overflow-hidden sm:rounded-md">
         <div className="px-4 pt-5 bg-white sm:pt-6">
           <h1 className="text-xl font-bold text-gray-900">
@@ -85,7 +81,7 @@ export default function ContactForm(props: { listing: ListingData }) {
         </div>
         <div className="px-4 py-3 bg-gray-50 text-right sm:px-6">
           <button
-            type="submit"
+            disabled={true}
             className="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
           >
             Send

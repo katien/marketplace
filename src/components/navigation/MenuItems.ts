@@ -6,7 +6,7 @@ import {
   ShieldCheckIcon,
 } from '@heroicons/react/outline';
 
-export const services = [
+export const products = [
   {
     name: 'Marketplace',
     description: "View properties on the marketplace to know what's available",

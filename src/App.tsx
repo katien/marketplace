@@ -6,7 +6,7 @@ import Navigation from './components/navigation/Navigation';
 import Error from './components/Error';
 import ListingDetail from './marketplace/ListingDetail';
 import Landing from './landing/Landing';
-import Platform from './platform/Platform';
+import About from './about/About';
 import Team from './team/Team';
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/marketplace" element={<Marketplace />} />
-        <Route path="/platform" element={<Platform />} />
+        <Route path="/about" element={<About />} />
         <Route path="/team" element={<Team />} />
         <Route path="/listings/:mlsNumber" element={<ListingDetail />} />
         <Route

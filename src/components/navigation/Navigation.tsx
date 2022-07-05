@@ -1,6 +1,6 @@
 import { Popover } from '@headlessui/react';
 import { MenuIcon } from '@heroicons/react/outline';
-import Services from './Services';
+import Products from './Products';
 import Learn from './Learn';
 import Mobile from './Mobile';
 import { ConnectWallet } from '../connectwallet/ConnectWallet';
@@ -23,12 +23,12 @@ function Navigation() {
             </Popover.Button>
           </div>
           <Popover.Group as="nav" className="hidden md:flex space-x-10">
-            <Services />
+            <Products />
             <a
-              href="/platform"
+              href="/about"
               className="text-base font-medium text-gray-500 hover:text-gray-900"
             >
-              Platform
+              About
             </a>
             <a
               href="/team"

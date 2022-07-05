@@ -1,7 +1,7 @@
 import { Fragment } from 'react';
 import { Popover, Transition } from '@headlessui/react';
 import { XIcon } from '@heroicons/react/outline';
-import { services, resources, callsToAction } from './MenuItems';
+import { products, resources, callsToAction } from './MenuItems';
 import { ConnectWallet } from '../connectwallet/ConnectWallet';
 
 function Navigation() {
@@ -34,7 +34,7 @@ function Navigation() {
             </div>
             <div className="mt-6">
               <nav className="grid gap-y-8">
-                {services.map((item) => (
+                {products.map((item) => (
                   <a
                     key={item.name}
                     href={item.href}
@@ -55,10 +55,10 @@ function Navigation() {
           <div className="py-6 px-5 space-y-6">
             <div className="grid grid-cols-2 gap-y-4 gap-x-8">
               <a
-                href="/platform"
+                href="/about"
                 className="text-base font-medium text-gray-900 hover:text-gray-700"
               >
-                Platform
+                About
               </a>
 
               <a

@@ -1,5 +1,3 @@
-https://pat-arlia.medium.com/who-can-and-cant-make-use-of-real-estate-board-data-602f76e8f096
-
 # Real Estate Investment Platform
 Data displayed is scrambled due to restrictions on who can access MLS data: https://pat-arlia.medium.com/who-can-and-cant-make-use-of-real-estate-board-data-602f76e8f096
 

@@ -19,7 +19,7 @@ const faqs = [
   },
 ];
 
-export default function Platform() {
+export default function About() {
   return (
     <div className="bg-white">
       <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:py-20 lg:px-8">
