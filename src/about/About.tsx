@@ -17,7 +17,7 @@ const faqs = [
   {
     question: 'Why was this built?',
     answer:
-      "Katie opted to build a simplified version of the investor platform because she’d already built something <a class='font-medium text-indigo-600 hover:text-indigo-500' target='_blank' href='https://achroma.io/'>very similar</a> to the buyer onboarding system that will likely be the company’s immediate focus. She’s also coming off of a long stint of back end development at both Katasi and Portis, so she wanted a refresher on the front end.",
+      "Katie opted to build a simplified version of the investor platform because she’d already worked on something <a class='font-medium text-indigo-600 hover:text-indigo-500' target='_blank' href='https://achroma.io/'>very similar</a> to the buyer onboarding system that will likely be the company’s immediate focus. She’s also coming off of a long stint of back end development at both Katasi and Portis, so she wanted a refresher on the front end.",
   },
   {
     question: "Why don't the forms do anything?",
