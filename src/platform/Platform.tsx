@@ -26,7 +26,7 @@ export default function Platform() {
         <div className="lg:grid lg:grid-cols-3 lg:gap-8">
           <div>
             <h2 className="text-3xl font-extrabold text-gray-900">
-              About this site
+              About this platform
             </h2>
             <p className="mt-4 text-lg text-gray-500">
               Looking for the code? It's open source{' '}
