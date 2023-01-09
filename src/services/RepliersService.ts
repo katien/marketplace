@@ -2,7 +2,7 @@ import axios, { AxiosResponse } from 'axios';
 
 // todo: extract into environment variables
 const baseUrl = 'https://sandbox.repliers.io';
-const apiKey = 'QeBzmChYdgHYIRNC4XN9Bb0StoCUWm';
+const apiKey = '2JOT6eil9h7bxV4EsjcF6aKr4Q5yzh';
 
 export const pageSize = 12;
 
